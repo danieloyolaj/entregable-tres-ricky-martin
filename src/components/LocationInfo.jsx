@@ -4,7 +4,7 @@ const LocationInfo = ({location}) => {
   return (
     <div className="container">
       <header>
-        <img className='img-header' src="../src/assets/rick-morty-header.jpg" alt="" />
+        <img className='img-header' src="../src/assets/rick-morty-header.jpg" alt="header" />
       </header>
       <article>
           <h2>Name: {location?.name}</h2>
