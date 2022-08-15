@@ -31,7 +31,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <h1>Riky & Martin</h1> */}
       
       <LocationInfo location={location} />
       
@@ -54,7 +53,7 @@ function App() {
         }
       </div>
       
-      <footer>
+    <footer>
       <p>Rick & Morty</p>
       <p>Made with &hearts; in Academlo</p>
     </footer>
