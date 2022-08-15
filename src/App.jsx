@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import CardResident from './components/CardResident'
 import LocationInfo from './components/LocationInfo'
-import useFetch from './hooks/useFetch'
 
 function App() {
 
@@ -24,7 +23,7 @@ function App() {
       .catch(err => console.log(err))
   }, [searchInput])
   
-
+  
   const handleSubmit = e => {
     e.preventDefault()
     setSearchInput(e.target.search.value)
@@ -54,9 +53,7 @@ function App() {
           ))
         }
       </div>
-      <div className="pagination">
-        <p>1</p>
-      </div>
+      
       <footer>
       <p>Rick & Morty</p>
       <p>Made with &hearts; in Academlo</p>
